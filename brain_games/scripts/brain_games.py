@@ -1,11 +1,9 @@
-#!:/usr/bin/env python
+#!:/usr/bin/env python3
 
 from brain_games import cli
 
 def main():
     cli.welcome_user()
-
-main()
     
-if __name__ == '__main__' :
+if __name__ == '__main__':
     main()
