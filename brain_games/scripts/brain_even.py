@@ -29,6 +29,9 @@ def main():
                     print( "'" + answer + "' is wrong answer:(. Correct answer is 'no'.\nLet`s try again " + name + "!")
                     break
         x += 1
+
+if __name__ == '__main__':
+    main()
         
         
             
