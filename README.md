@@ -4,3 +4,4 @@
 [![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/Lint/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
 https://asciinema.org/a/YfsUkjM1eIbURkkL8Oe4FR2s7
 https://asciinema.org/a/mWIQ5VihuU3U48dx2hnN3CvU0
+https://asciinema.org/a/d1hEV8URbBRdxd6JepKhuLZDk
