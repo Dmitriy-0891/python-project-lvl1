@@ -17,20 +17,22 @@ def main():
             second_count = random.randint(1, 1000)
             print("Question: " + str(first_count) + " " + str(second_count))
             answer = prompt.string('Your answer: ')
+            pgcd = 1
             if first_count > second_count:
                 #possible greatest common divisor
                 pgcd = second_count
             else:
                 pgcd = first_count
-            for i in range(1, pgcd, 1):
-                if((first_count / i == 0) and (second_count / i == 0)):
+            gcd = 1
+            for i in range(pgcd, 1, -1):
+                if((first_count % i == 0) and (second_count % i == 0)):
                     #greatest common divisor
                     gcd = i
-                    if answer == str(gcd):
-                        print("Correct!")
-                    else:
-                        print( "'" + answer + "' is wrong answer:(. Correct answer is " + str(gcd) + ".\nLet`s try again " + name + "!")
-                        break
+            if answer == str(gcd):
+                print("Correct!")
+            else:
+                print( "'" + answer + "' is wrong answer:(. Correct answer is " + str(gcd) + ".\nLet`s try again " + name + "!")
+                break
         x += 1
 
 if __name__ == '__main__':
