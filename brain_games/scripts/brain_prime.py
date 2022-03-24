@@ -29,7 +29,7 @@ def main():
             else:
                 print("'" + answer + "' is wrong answer:(. Correct answer is 'no'.")
                 print("Let`s try again " + name + "!")
-        
+
         x += 1
 
 
