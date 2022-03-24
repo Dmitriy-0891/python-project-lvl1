@@ -45,9 +45,7 @@ def main():
                     print("Let`s try again " + name + "!")
                     break
 
-
         x += 1
-
 
 if __name__ == '__main__':
     main()
