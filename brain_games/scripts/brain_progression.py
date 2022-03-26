@@ -3,6 +3,7 @@
 import prompt
 import random
 
+
 def main():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -13,33 +14,34 @@ def main():
         if x == 4:
             print("Congratulations, " + name + "!")
         else:
-            first_number = random.randint(1,1000000)
-            step = random.randint(1,1000)
-            i = random.randint(0,9)
+            num_first = random.randint(1, 1000000)
+            step = random.randint(1, 1000)
+            i = random.randint(0, 9)
             f = ".."
-            last_number = first_number + (step * 10)
-            progression = list(range(first_number, last_number, step))
+            last_number = num_first + (step * 10)
+            progression = list(range(num_first, last_number, step))
             right_answer = progression[i]
             del progression[i]
-            progression.insert(i,f)
-            num_one = progression[0]
-            num_two = progression[1]
-            num_three = progression[2]
-            num_four = progression[3]
-            num_five = progression[4]
-            num_six = progression[5]
-            num_seven = progression[6]
-            num_eight = progression[7]
-            num_nine = progression[8]
-            num_ten = progression[9]
-            print("Question: " + str(num_one) + " " + str(num_two) + " " + str(num_three) + " " + str(num_four) + " " + str(num_five) + " " + str(num_six) + " " + str(num_seven) + " " + str(num_eight) + " " + str(num_nine) + " " + str(num_ten))
+            progression.insert(i, f)
+            num_1 = progression[0]
+            num_2 = progression[1]
+            num_3 = progression[2]
+            num_4 = progression[3]
+            num_5 = progression[4]
+            num_6 = progression[5]
+            num_7 = progression[6]
+            num_8 = progression[7]
+            num_9 = progression[8]
+            num_10 = progression[9]
+            print("Question: " + str(num_1) + " " + str(num_2) + " " + str(num_3) + " " + str(num_4) + " " + str(num_5) + " " + str(num_6) + " " + str(num_7) + " " + str(num_8) + " " + str(num_9) + " " + str(num_10))
             answer = prompt.string('Your answer: ')
             if answer == str(right_answer):
                 print("Correct!")
             else:
-                print( "'" + answer + "' is wrong answer:(. Correct answer is " + str(right_answer) + ".\nLet`s try again " + name + "!")
+                print("'" + answer + "' is wrong answer:(. Correct answer is " + str(right_answer) + ".\nLet`s try again " + name + "!")
                 break
         x += 1
+
 
 if __name__ == '__main__':
     main()
