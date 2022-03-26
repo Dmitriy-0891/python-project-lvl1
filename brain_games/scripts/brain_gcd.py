@@ -35,7 +35,7 @@ def main():
                 print("'" + a + "' is wrong answer:(. Correct answer is " + str(gcd) + ".")
                 print("Let`s try again " + name + "!")
                 break
-        
+
         x += 1
 
 
