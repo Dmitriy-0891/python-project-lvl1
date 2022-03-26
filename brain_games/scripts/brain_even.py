@@ -21,7 +21,7 @@ def main():
                 if answer == 'yes':
                     print("Correct!")
                 else:
-                    print( "'" + answer + "' is wrong answer:(. Correct answer is 'yes'")
+                    print("'" + answer + "' is wrong answer:(. Correct answer is 'yes'")
                     print("Let`s try again " + name + "!")
                     break
             else:
