@@ -3,6 +3,11 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["Dimitrii Chimidov <cimidovdmitrii@gmail.com>"]
+repositiry = "https://github.com/Dmitriy-0891/python-project-lvl1.git"
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 packages = [{ include = "brain_games"},]
 
 [tool.poetry.dependencies]
