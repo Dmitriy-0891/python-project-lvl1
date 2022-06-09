@@ -3,10 +3,9 @@ name = "hexlet-code"
 version = "0.1.0"
 description = ""
 authors = ["Dimitrii Chimidov <cimidovdmitrii@gmail.com>"]
-repositiry = "https://github.com/Dmitriy-0891/python-project-lvl1.git"
-classifiers = [
-    "Topic :: Software Development :: Build Tools",
-    "Topic :: Software Development :: Libraries :: Python Modules"
+repository = "https://github.com/Dmitriy-0891/python-project-lvl1.git"
+classifiers=[
+        'Programming Language :: Python :: 3.8',
 ]
 packages = [{ include = "brain_games"},]
 
@@ -21,6 +20,8 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+engine-games = "brain_games.scripts.engine_games:main"
+game = "brain_games.games.game:main"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"

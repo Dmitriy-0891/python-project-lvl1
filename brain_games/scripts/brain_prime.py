@@ -4,9 +4,9 @@ import prompt
 import random
 
 
-def main():
+def main(name, attempt_number):
     num = random.randint(0, 3752)
-    print('Question: ' + str(num))
+    print(f"Question: {num}")
     answer = prompt.string('Your answer: ')
     d = 2
     while num % d != 0:
@@ -14,17 +14,19 @@ def main():
     if num == d:
         if answer == "yes":
             print("Correct!")
+            return True
         else:
-            print("'" + answer + "' is wrong answer:(. Correct answer is 'yes'.")
+            print(f"'{answer}' is wrong answer:(. Correct answer is 'yes'.")
             print("Let`s try again " + name + "!")
-            break
+            return False
     else:
         if answer == "no":
             print("Correct!")
+            return True
         else:
-            print("'" + answer + "' is wrong answer:(. Correct answer is 'no'.")
+            print(f"'{answer}' is wrong answer:(. Correct answer is 'no'.")
             print("Let`s try again " + name + "!")
-            break
+            return False
 
 
 if __name__ == '__main__':
