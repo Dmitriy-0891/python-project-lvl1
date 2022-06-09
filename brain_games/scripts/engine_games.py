@@ -14,25 +14,26 @@ def main(name, game_script):
             print("Congratulations, " + name + "!")
         else:
             if game_script == "brain_calc":
-                if brain_calc.main(name, x) == False:
+                if brain_calc.main(name, x) is False:
                     break
-                   
+
             elif game_script == "brain_even":
-                if brain_even.main(name, x) == False:
+                if brain_even.main(name, x) is False:
                     break
-            
+
             elif game_script == "brain_gcd":
-                if brain_gcd.main(name, x) == False:
+                if brain_gcd.main(name, x) is False:
                     break
 
             elif game_script == "brain_prime":
-                if brain_prime.main(name, x) == False:
+                if brain_prime.main(name, x) is False:
                     break
 
             elif game_script == "brain_progression":
-                if brain_progression.main(name, x) == False:
+                if brain_progression.main(name, x) is False:
                     break
         x += 1
+
 
 if __name__ == '__main__':
     main()

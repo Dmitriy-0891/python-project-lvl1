@@ -16,7 +16,7 @@ def main(name, attempt_number):
             print(f"'{answer}' is wrong answer:(. Correct answer is 'yes'")
             print("Let`s try again " + name + "!")
             return False
-    
+
     else:
         if answer == 'no':
             print("Correct!")

@@ -31,7 +31,7 @@ def main(name, attempt_number):
     if answer == str(right_answer):
         print("Correct!")
         return True
-    
+
     else:
         print(f"'{answer}' is wrong answer:(.")
         print(f"Correct answer is '{right_answer}'.")

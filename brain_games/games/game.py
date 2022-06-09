@@ -1,6 +1,5 @@
 #!:/usr/bin/env python3
 
-import random
 import prompt
 from brain_games.scripts import engine_games
 
@@ -10,7 +9,8 @@ def main():
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
     print('We have 5 games:')
-    print('brain_calc\n brain_even\n brain_gcd\n brain_prime\n brain_progression')
+    print(' brain_calc\n brain_even\n brain_gcd') 
+    print(' brain_prime\n brain_progression')
     game = prompt.string("What game do you want to play? ")
 
     if game == "brain_calc":
@@ -37,3 +37,5 @@ def main():
         return print("Sorry, but there is no such game!")
 
 
+if __name__ == '__main__':
+    main()

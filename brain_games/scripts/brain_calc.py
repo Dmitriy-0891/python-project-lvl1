@@ -20,7 +20,7 @@ def main(name, attempt_number):
             print(f"'{answer}' is wrong answer:(. Correct answer is {result}.")
             print("Let`s try again " + name + "!")
             return False
-    
+
     elif sign == "-":
         result = num_1 - num_2
         if answer == str(result):
