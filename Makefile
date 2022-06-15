@@ -5,19 +5,19 @@ brain-games:
 	poetry run brain-games
 
 brain-calc:
-	poetry run brain-calc-game
+	poetry run brain-calc
 
 brain-even:
-	poetry run brain-even-game
+	poetry run brain-even
 
 brain-gcd:
-	poetry run brain-gcd-game
+	poetry run brain-gcd
 
 brain-prime:
-	poetry run brain-prime-game
+	poetry run brain-prime
 
 brain-progression:
-	poetry run brain-progression-game
+	poetry run brain-progression
 
 build:
 	poetry build

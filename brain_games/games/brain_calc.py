@@ -1,17 +1,17 @@
 import prompt
-from brain_games.scripts import brain_progression
+from brain_games.scripts import brain_calc_script
 
 
 def main():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, ' + name + '!')
-    print('What number is missing in the progression?')
+    print('What is result of the exrpession?')
     for x in list(range(1, 5)):
         if x == 4:
             print("Congratulations, " + name + "!")
         else:
-            if brain_progression.main() is True:
+            if brain_calc_script.main() is True:
                 print("Correct!")
             else:
                 print("Let`s try again " + name + "!")
