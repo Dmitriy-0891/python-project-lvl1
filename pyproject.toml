@@ -20,8 +20,11 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
-engine-games = "brain_games.scripts.engine_games:main"
-game = "brain_games.games.game:main"
+brain-calc-game = "brain_games.games.brain_calc_game:main"
+brain-even-game = "brain_games.games.brain_even_game:main"
+brain-gcd-game = "brain_games.games.brain_gcd_game:main"
+brain-prime-game = "brain_games.games.brain_prime_game:main"
+brain-progression-game = "brain_games.games.brain_progression_game:main"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
