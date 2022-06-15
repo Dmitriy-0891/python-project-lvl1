@@ -1,10 +1,16 @@
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
+<a href="https://codeclimate.com/github/Dmitriy-0891/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/557c012bb642709e60ba/maintainability" /></a>
+[![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/Lint/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
 
-Greetings to all! My name is Dmitry. This project contains 5 mini-games inside. Exactly: brain-calc-game, brain-even-game, brain-gcd-game, brain-prime-game, brain-progression-game.
+Greetings to all! My name is Dmitry. This project contains 5 mini-games inside. Exactly: brain-calc, brain-even, brain-gcd, brain-prime, brain-progression.
 To download the game, write the following command:
 
 $ git clone https://github.com/Dmitriy-0891/python-project-lvl1.git
 
-To start the game, you need to run the command: 
+To start the game, you need to run the command in the root folder of the cloned project: 
+
+$ poetry install
 
 $ poetry run <name_game>
 
@@ -36,7 +42,4 @@ brain-progression-game:
 https://asciinema.org/a/mNCg7lJhWTwhPCBmdSeMDwTRR
 
 
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
-<a href="https://codeclimate.com/github/Dmitriy-0891/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/557c012bb642709e60ba/maintainability" /></a>
-[![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/Lint/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
+
