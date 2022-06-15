@@ -1,45 +1,42 @@
 
-Greetings to all! My name is Dmitry. This project is the embodiment of a game for the smart. This game contains 5 mini-games inside. Exactly: brain_calc, brain_even, brain_gcd, brain_prime, brain-progression.
+Greetings to all! My name is Dmitry. This project contains 5 mini-games inside. Exactly: brain-calc-game, brain-even-game, brain-gcd-game, brain-prime-game, brain-progression-game.
 To download the game, write the following command:
 
 $ git clone https://github.com/Dmitriy-0891/python-project-lvl1.git
 
 To start the game, you need to run the command: 
 
-$ poetry run game.
+$ poetry run <name_game>
 
-The game will ask for your name. After entering the name, you will be asked to play one of the presented mini-games.
-You will choose the game. You need to enter the name of the mini-game correctly. Otherwise, the game will apologize and end itself.
+The game will ask for your name. 
 General rules for all mini-games:
 1) you need to answer three times in a row to win.
 2) after the first error, the game will automatically end.
 
 Using these links, you can visually see how the game works:
 
-brain_calc:
+brain-calc-game:
 
-https://asciinema.org/a/zw0631bx99ueEppzVxsuUgmnx
+https://asciinema.org/a/8RmbAWflEV1jpKKoKNFJXRZNl
 
-brain_even:
+brain-even-game:
 
-https://asciinema.org/a/koo5FeaSVhBBRmMNdlQyjCHrr
+https://asciinema.org/a/AXl5oh0Ct4k7w4APMk9HGPues
 
-brain_gcd:
+brain-gcd-game:
 
-https://asciinema.org/a/My33tYXYTJKHLVyXOyXmjvFsS
+https://asciinema.org/a/RVGooKzYpQNa6zm49nEnSg6Us
 
-brain_prime:
+brain-prime-game:
 
-https://asciinema.org/a/nAFNN9Ds7dcfgNfVFksyw1wfI
+https://asciinema.org/a/BReY2r5fPPiEWyvJ6KTLBDeB7
 
-brain_progression:
+brain-progression-game:
 
-https://asciinema.org/a/zw0631bx99ueEppzVxsuUgmnx
+https://asciinema.org/a/mNCg7lJhWTwhPCBmdSeMDwTRR
 
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
 <a href="https://codeclimate.com/github/Dmitriy-0891/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/557c012bb642709e60ba/maintainability" /></a>
 [![Actions Status](https://github.com/Dmitriy-0891/python-project-lvl1/workflows/Lint/badge.svg)](https://github.com/Dmitriy-0891/python-project-lvl1/actions)
-
-
