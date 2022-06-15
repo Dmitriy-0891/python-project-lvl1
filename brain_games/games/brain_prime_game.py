@@ -11,7 +11,10 @@ def main():
         if x == 4:
             print("Congratulations, " + name + "!")
         else:
-            if brain_prime.main(name, x) is False:
+            if brain_prime.main() is True:
+                print("Correct!")
+            else:
+                print("Let`s try again " + name + "!")
                 break
 
 

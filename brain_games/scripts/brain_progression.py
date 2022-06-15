@@ -4,7 +4,7 @@ import prompt
 import random
 
 
-def main(name, attempt_number):
+def main():
     num_first = random.randint(1, 1000000)
     step = random.randint(1, 1000)
     i = random.randint(0, 9)
@@ -29,13 +29,11 @@ def main(name, attempt_number):
     print(f"Question: {first_five_num} {second_five_num}")
     answer = prompt.string('Your answer: ')
     if answer == str(right_answer):
-        print("Correct!")
         return True
 
     else:
         print(f"'{answer}' is wrong answer:(.")
         print(f"Correct answer is '{right_answer}'.")
-        print("Let`s try again " + name + "!")
         return False
 
 
