@@ -22,6 +22,7 @@ def main():
             if num_2 % i == 0:
                 # greatest common divisor
                 gcd = i
+                break
     if answer == str(gcd):
         return True
     else:
