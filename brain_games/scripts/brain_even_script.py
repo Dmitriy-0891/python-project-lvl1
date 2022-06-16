@@ -17,7 +17,6 @@ def main():
 
     else:
         if answer == 'no':
-            print("Correct!")
             return True
         else:
             print(f"'{answer}' is wrong answer:(. Correct answer is 'no'")
