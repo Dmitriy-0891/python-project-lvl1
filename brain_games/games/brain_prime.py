@@ -14,7 +14,7 @@ def main():
             if brain_prime_script.main() is True:
                 print("Correct!")
             else:
-                print("Let`s try again " + name + "!")
+                print("Let`s try again, " + name + "!")
                 break
 
 
