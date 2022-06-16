@@ -13,27 +13,15 @@ def main():
     answer = prompt.string('Your answer: ')
     if sign == "+":
         result = num_1 + num_2
-        if answer == str(result):
-            return True
-        else:
-            print(f"'{answer}' is wrong answer:(. Correct answer is {result}.")
-            return False
-
     elif sign == "-":
         result = num_1 - num_2
-        if answer == str(result):
-            return True
-        else:
-            print(f"'{answer}' is wrong answer:(. Correct answer is {result}.")
-            return False
-
     elif sign == "*":
         result = num_1 * num_2
-        if answer == str(result):
-            return True
-        else:
-            print(f"'{answer}' is wrong answer:(. Correct answer is {result}.")
-            return False
+    if answer == str(result):
+        return True
+    else:
+        print(f"'{answer}' is wrong answer:(. Correct answer is {result}.")
+        return False
 
 
 if __name__ == '__main__':
