@@ -18,9 +18,10 @@ def main():
         pgcd = num_1
 
     for i in range(pgcd, 1, -1):
-        if((num_1 % i == 0) and (num_2 % i == 0)):
-            # greatest common divisor
-            gcd = i
+        if num_1 % i == 0:
+            if num_2 % i == 0:
+                # greatest common divisor
+                gcd = i
     if answer == str(gcd):
         return True
     else:
