@@ -12,34 +12,32 @@ To start the game, you need to run the command in the root folder of the cloned 
 
 $ poetry install
 
-$ poetry run <name_game>
+$ make package-install
 
-The game will ask for your name. 
+$ <name-game> # brain-calc or brain-even or brain-gcd or brain-prime or brain-progression
+
 General rules for all mini-games:
 1) you need to answer three times in a row to win.
 2) after the first error, the game will automatically end.
 
 Using these links, you can visually see how the game works:
 
-brain-calc-game:
+brain-calc:
 
-https://asciinema.org/a/8RmbAWflEV1jpKKoKNFJXRZNl
+https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6
 
-brain-even-game:
+brain-even:
 
-https://asciinema.org/a/AXl5oh0Ct4k7w4APMk9HGPues
+https://asciinema.org/a/ZrkY23V7Y57dKUYoKFOIBaPmk
 
-brain-gcd-game:
+brain-gcd:
 
-https://asciinema.org/a/RVGooKzYpQNa6zm49nEnSg6Us
+https://asciinema.org/a/fSI0Jt1QR3wnglOxqddLYg6PX
 
-brain-prime-game:
+brain-prime:
 
-https://asciinema.org/a/BReY2r5fPPiEWyvJ6KTLBDeB7
+https://asciinema.org/a/FaXIpMunvJFwAI4xrZG6OYjfa
 
-brain-progression-game:
+brain-progression:
 
-https://asciinema.org/a/mNCg7lJhWTwhPCBmdSeMDwTRR
-
-
-
+https://asciinema.org/a/DsLqwIGQgopordhVKufRlX4g9
