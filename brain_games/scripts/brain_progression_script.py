@@ -4,7 +4,7 @@ import prompt
 import random
 
 
-def main():
+def main(x=1):
     num_first = random.randint(1, 1000000)
     step = random.randint(1, 1000)
     i = random.randint(0, 9)
@@ -28,13 +28,8 @@ def main():
     second_five_num = f"{num_6} {num_7} {num_8} {num_9} {num_10}"
     print(f"Question: {first_five_num} {second_five_num}")
     answer = prompt.string('Your answer: ')
-    if answer == str(right_answer):
-        return True
-
-    else:
-        print(f"'{answer}' is wrong answer:(.")
-        print(f"Correct answer is '{right_answer}'.")
-        return False
+    result = str(right_answer)
+    return [answer, result]
 
 
 if __name__ == '__main__':

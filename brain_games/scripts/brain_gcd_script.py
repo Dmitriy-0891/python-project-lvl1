@@ -4,7 +4,7 @@ import prompt
 import random
 
 
-def main():
+def main(x=1):
     num_1 = random.randint(1, 1000)
     num_2 = random.randint(1, 1000)
     print(f"Question: {num_1} {num_2}")
@@ -23,11 +23,7 @@ def main():
                 # greatest common divisor
                 gcd = i
                 break
-    if answer == str(gcd):
-        return True
-    else:
-        print(f"'{answer}' is wrong answer:(. Correct answer is {gcd}.")
-        return False
+    return [int(answer), gcd]
 
 
 if __name__ == '__main__':
