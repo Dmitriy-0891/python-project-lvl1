@@ -4,11 +4,7 @@ import prompt
 import random
 
 
-def main(x=1):
-    num_1 = random.randint(1, 1000)
-    num_2 = random.randint(1, 1000)
-    print(f"Question: {num_1} {num_2}")
-    answer = prompt.string('Your answer: ')
+def gcd(num_1, num_2):
     pgcd = 1
     gcd = 1
     if num_1 > num_2:
@@ -23,7 +19,16 @@ def main(x=1):
                 # greatest common divisor
                 gcd = i
                 break
-    return [int(answer), gcd]
+    return gcd
+
+
+def main(x=1):
+    general_question = "Find the greatest common divisor of given numbers."
+    num_1 = random.randint(1, 1000)
+    num_2 = random.randint(1, 1000)
+    question = f"Question: {num_1} {num_2}"
+    result = gcd(num_1, num_2)
+    return (question, result, general_question)
 
 
 if __name__ == '__main__':
