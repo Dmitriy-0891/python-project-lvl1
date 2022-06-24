@@ -1,6 +1,5 @@
 #!:/usr/bin/env python3
 
-import prompt
 import random
 
 
@@ -16,11 +15,11 @@ def prime(num):
 
 
 def main(x=1):
-    general_question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    gen_ques = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     num = random.randint(0, 3752)
     question = f"Question: {num}"
     result = prime(num)
-    return (question, result, general_question)
+    return (question, result, gen_ques)
 
 
 if __name__ == '__main__':

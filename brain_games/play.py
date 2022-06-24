@@ -13,7 +13,7 @@ def main(name_game_module):
         # b - this is the correct answer
         # c - a variable entered for assignment capability
         a, b, c = result
-        #Conclusion of the question
+        # Conclusion of the question
         print(a)
         answer = prompt.string('Your answer: ')
         if answer == str(b):

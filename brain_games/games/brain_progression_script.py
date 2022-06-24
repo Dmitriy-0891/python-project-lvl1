@@ -1,6 +1,5 @@
 #!:/usr/bin/env python3
 
-import prompt
 import random
 
 
@@ -15,7 +14,9 @@ def main(x=1):
     result = progression[i]
     del progression[i]
     progression.insert(i, f)
-    question = f"Question: {tuple(progression)}"
+    question = "Question: "
+    for k in progression:
+        question = question + str(k) + " "
     return (question, result, general_question)
 
 
