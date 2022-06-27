@@ -24,22 +24,20 @@ Using these links, you can visually see how the game works:
 
 brain-calc:
 
-https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6
-
 [![asciicast](https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6.svg)](https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6)
 
 brain-even:
 
-https://asciinema.org/a/ZrkY23V7Y57dKUYoKFOIBaPmk
+[![asciicast](https://asciinema.org/a/ZrkY23V7Y57dKUYoKFOIBaPmk.svg)](https://asciinema.org/a/ZrkY23V7Y57dKUYoKFOIBaPmk)
 
 brain-gcd:
 
-https://asciinema.org/a/fSI0Jt1QR3wnglOxqddLYg6PX
+[![asciicast](https://asciinema.org/a/fSI0Jt1QR3wnglOxqddLYg6PX.svg)](https://asciinema.org/a/fSI0Jt1QR3wnglOxqddLYg6PX)
 
 brain-prime:
 
-https://asciinema.org/a/FaXIpMunvJFwAI4xrZG6OYjfa
+[![asciicast](https://asciinema.org/a/FaXIpMunvJFwAI4xrZG6OYjfa.svg)](https://asciinema.org/a/FaXIpMunvJFwAI4xrZG6OYjfa)
 
 brain-progression:
 
-https://asciinema.org/a/DsLqwIGQgopordhVKufRlX4g9
+[![asciicast](https://asciinema.org/a/DsLqwIGQgopordhVKufRlX4g9.svg)](https://asciinema.org/a/DsLqwIGQgopordhVKufRlX4g9)
