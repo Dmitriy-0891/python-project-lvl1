@@ -1,9 +1,11 @@
-from brain_games.games import brain_prime_script
-from brain_games import play
+#!:/usr/bin/env python3
+
+from brain_games.games import prime
+from brain_games import engine
 
 
 def main():
-    play.main(brain_prime_script)
+    engine.play(prime)
 
 
 if __name__ == '__main__':

@@ -1,22 +1,23 @@
 import prompt
 
 
-def main(name_game_module):
+ROUNDS_COUNTS = 3
+
+
+def play(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(name_game_module.main()[2])
-    ROUNDS_COUNTS = 3
+    print(game.RULE_GAME)
     for _ in range(ROUNDS_COUNTS):
-        result = name_game_module.main(_)
+        result = game.main()
         # a - it's a matter of the game
         # b - this is the correct answer
-        # c - a variable entered for assignment capability
-        a, b, c = result
+        a, b = result
         # Conclusion of the question
         print(a)
         answer = prompt.string('Your answer: ')
-        if answer == str(b):
+        if answer == b:
             print("Correct!")
         else:
             print(f"'{answer}' is wrong answer:(. Correct answer is '{b}'.")

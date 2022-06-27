@@ -26,6 +26,8 @@ brain-calc:
 
 https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6
 
+[![asciicast](https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6.svg)](https://asciinema.org/a/lxwc1uuY614Myxn3ja5PBrTc6)
+
 brain-even:
 
 https://asciinema.org/a/ZrkY23V7Y57dKUYoKFOIBaPmk

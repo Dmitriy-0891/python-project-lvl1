@@ -1,9 +1,11 @@
-from brain_games.games import brain_even_script
-from brain_games import play
+#!:/usr/bin/env python3
+
+from brain_games.games import even
+from brain_games import engine
 
 
 def main():
-    play.main(brain_even_script)
+    engine.play(even)
 
 
 if __name__ == '__main__':
